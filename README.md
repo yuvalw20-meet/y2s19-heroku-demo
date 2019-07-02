@@ -2,8 +2,8 @@
 
 ## 0. Setup
 To deploy on Heroku, you need two additional files in your folder. A `requirements.txt` that lists all the python libraries Heroku will need and a `Procfile` which contains the code that runs your `app.py`.
-To see what python libraries you have on your computer, go to a terminal and run `pip freeze`. To put these libraries in a files, you can run `pip freeze >> requirements.txt`.
-The `Procfile` will stay mostly stay the same for any project as long as you consistently name your server file `app.py`.
+<br />To see what python libraries you have on your computer, go to a terminal and run `pip freeze`. To put these libraries in a files, you can run `pip freeze >> requirements.txt`.
+<br />The `Procfile` will stay mostly stay the same for any project as long as you consistently name your server file `app.py`.
 ## 1. Create/sign-in to your heroku account and click `new` and `Create new app`
 ![Heroku](heroku1.png)<br />
 ## 2. Give your project a unique name and click `Create app`
