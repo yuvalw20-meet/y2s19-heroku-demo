@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	<title>My Fav Food</title>
+</head>
+<body>
+	<h1 id="title">MEAT</h1>
+	<p>My favourite food is meat, just any kind of meat as long as it's quality.<br> Meat as lomg as its is quality is just the best thing everrrrrrrrr #southamerican</p>
+
+	{% if oppoday %}
+	<ul>
+		{% for item in oppolist%} 
+		<li> {{item}} </li>
+		{% endfor %}
+	</ul>
+	{% else %}
+	<ul>
+		{% for imet in listboii%} 
+		<li> {{imet}} </li>
+		{% endfor %}
+	</ul>
+	{% endif %}
+
+	
+
+</body>
+</html>

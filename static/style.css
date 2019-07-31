@@ -1,3 +1,9 @@
 body {
-    background-color: aqua;
+	background-color: magenta;
+	font-family: sans-serif;
+}
+#title {
+	font-family: serif;
+	font-style: italic;
+	margin-bottom: 22px;
 }
