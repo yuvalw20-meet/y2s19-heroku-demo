@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route('/')
 def home_page():
 	oppiboii = False
-	foodslist = ["Steak", "Burger", "Chibito", "Pork Schnitzel"]
+	foodslist = ["Steak", "Burger", "Chibito", "Cow Tounge"]
 	hatedefs = ["Tofu", "Cauliflower Chickpea Patties","Zucchini and Tomato Lasagna With Cashew Herb Cheese"]
 	return render_template("index.html",listboii = foodslist,oppoday = oppiboii, oppolist = hatedefs)
 
